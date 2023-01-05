@@ -1,12 +1,11 @@
 let url;
 let url_array;
-let punicode_judge;
-let punicode_regex = /xn--.+/;
-let dns_regex = /[A-Za-z0-9-\.]/;
+const punycode_regex = /xn--.+/;
+const dns_regex = /[A-Za-z0-9-\.]/;
 
 url = document.location.hostname;
 url_array = [...url];
-if (punicode_regex.test(url) === true){
+if (punycode_regex.test(url) === true){
 	warn();
 }else{
 	for (var i = url_array.length; i > 0 ; i--){
@@ -18,5 +17,5 @@ if (punicode_regex.test(url) === true){
 }
 
 function warn() {
-	alert("URLに一般的にURLで使用されない文字が含まれています。\nもしも、\n	- 半角英数字(A-Z,a-z,0-9)\n	- 半角ハイフン(\" - \")\n	- ドット(\" . \")\nしか含まれていないように見える場合は偽サイトの場合があります。注意してください。\n(拡張機能URL Suspispectorより)");
+	alert("URLに一般的にURLで使用されない文字が含まれています。\nもしも、\n- 半角英数字(A-Z,a-z,0-9)\n- 半角ハイフン(\" - \")\n- ドット(\" . \")\nしか含まれていないように見える場合は偽サイトの場合があります。注意してください。\n(拡張機能 URL Suspispector より)");
 }
