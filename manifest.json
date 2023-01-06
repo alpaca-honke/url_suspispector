@@ -3,6 +3,11 @@
 	"name":"URL Suspispector",
 	"version":"0.0.0",
 	"description":"アルファベットに酷似したキリル文字など、一般的にURLに使用されない文字が使用されているサイトにアクセスした際に警告します。",
+	"icons":{
+		"16":"16.png", 
+		"48":"48.png",
+		"128":"128.png"
+	},
 	"content_scripts":[
 		{
 			"matches":["https://*/","http://*/"],
