@@ -1,5 +1,7 @@
 # URL Suspispector  
 **DNSで使用不可能な文字が含まれているサイトが危険というわけではありません。** 詳細は、使い方の項目をご覧ください。  
+
+リポジトリ:[alpaca-honke/url_suspispector](https://github.com/alpaca-honke/url_suspispector)  
 ## これは何？  
 URLに、一般的に使用されない文字（= DNSで使用できない文字）が含まれている場合に警告するChrome拡張機能です。  
 suspispectorとは、suspiciousとinspectorからなる造語で、不審なURLを検査する意味を込めています。  
@@ -20,7 +22,7 @@ URLにピュニコードが使用されていた場合に警告が出る仕組�
 今のところ、まだパッケージ化していません。  
 もしどうしても使いたければ、以下の方法をお試しください。  
 
-1. [URL Suspispector](https://github.com/alpaca-honke/url_suspispector)にアクセスする
+1. [alpaca-honke/url_suspispector](https://github.com/alpaca-honke/url_suspispector)にアクセスする
 1. 右上、"Code"と書かれた緑のボタンをクリック
 1. Download ZIPを押してZIPをダウンロードして、展開する
 1. ChromeやEdgeなどのブラウザ（Chromiumベースのもの）の拡張機能ページを開く（以下、Chromeで解説します）
@@ -36,3 +38,5 @@ URLに、DNSで使用不可能な文字は含まれていた場合に警告を�
 **DNSで使用不可能な文字が含まれているサイトが危険というわけではありません。**  
 （ココ重要）安全なサイトも多いです。一方、DNSで使用不可能な文字を使用して、既存のサイトのURLと判別を困難にしているサイトも稀にあります。これが危険なんです。本物に化けて、何をしようとしているんでしょうね？上述のGIMPの偽サイトは、マルウェアをインストールさせようとしていたみたいです。  
 
+## その他  
+何かありましたら、Twitter ([@alpaca_honke](https://twitter.com/alpaca_honke))とか、連絡フォーム（[依頼、連絡、など。](https://docs.google.com/forms/d/e/1FAIpQLSdRuzAmGEqDV4RRd-70JKXD0lAHE6xjEp8Qp5-Jfut-ysQMYQ/viewform):多用途でも使用しているフォームですので、URL Suspispectorとの旨をお書きください。）にご連絡いただけるとありがたいです。
